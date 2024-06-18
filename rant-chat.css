@@ -1,0 +1,456 @@
+html {
+  background-color: #F4ECE2;
+}
+
+.home {
+  padding:230px;
+  text-align: center;
+  background-image: url('womn.jpg'); 
+  background-size: cover;
+  height: 800px;
+}
+
+.ourGoals img {
+  width: 80%;
+}
+
+/* MISSION SECTION OF HOME PAGE */
+.ourGoals {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  height: 850px;
+  left: 50%;
+  background-color:#15284f;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding-top:100px;
+  padding-bottom:150px;
+}
+
+.x1 {
+  background-color:#CF8E77;
+  margin:20px;
+  width:300px;
+  padding:50px;
+  border-radius: 80px;
+  color:white;
+}
+
+/*.x1:hover{
+  background-color:#b87a63;
+} */
+
+.x2 {
+  background-color:#C64134;
+  margin:20px;
+  width:300px;
+  padding:50px;
+  border-radius: 80px;
+  color:white;
+}
+
+/*.x2:hover{
+  background-color:#a3362c;
+} */
+
+.x3 {
+  background-color:#C89D7C;
+  margin:20px;
+  width:300px;
+  padding:50px;
+  border-radius: 80px;
+  color:white;
+}
+
+/*.x3:hover{
+  background-color:#9c7a60;
+}*/
+
+.button {
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0); 
+  border: 2px solid white;
+  color:white;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+  border: 2px solid black;
+}
+
+/* end MISSION SECTION OF HOME PAGE */
+
+.homeAll {
+  align-self: center;
+  background:rgba(0, 0, 0, 0.5);
+  padding:50px;
+}
+
+.homeHead1 {
+  font-family: 'Poppins', sans-serif;
+  font-size:70px;
+  margin-bottom: -10px;
+  color: white;
+}
+
+.homeText {
+  font-family: 'Roboto', sans-serif;
+  padding-left: -100px; 
+  font-size: 20px;
+  color:white;
+}
+
+/* START OF Founders Section */
+
+.homeHead2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size:40px;
+  color:#171528;
+}
+
+.founders {
+  background-color:#C64134;
+  padding: 50px;
+  padding-left: 150px;
+  padding-right:150px;
+  height: 750px;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+	margin-bottom: -250px;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.us {
+  border-radius: 50%;
+  width:250px;
+  height:250px;
+}
+
+.overlay {
+  border-radius: 50%;
+  width:230px;
+  height:230px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+	position: relative;
+	top: -265px;
+	left: 10px;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+	/* Relative position means the text will be positioned relative to the container it's in */
+	position: relative;
+	top: 105px;
+}
+/* END OF FOUNDERS SECTION */
+
+/* HOME STATS */
+
+.piStat {
+  display: flex block;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  padding-top:100px;
+}
+
+.piTxt {
+  width:500px;
+  float:left;
+}
+
+.piImg {
+  width:500px;
+  float:right;
+}
+
+.pi {
+  width:100%;
+  height:100%;
+  float:right; 
+  display: flex;
+  justify-content: space-around;
+}
+
+/* START OF NAV BAR CODE */
+body {
+  margin: 0;
+}
+
+.navHead {
+  background-color: #C64134;
+  padding: 14px 12px;
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  
+}
+
+.navbar {
+  background-color: #CF8E77;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  width:100%;
+  margin-top: -8;
+}
+
+
+/* navbar links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Barlow', sans-serif;
+}
+
+/* dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: font-family: 'Barlow', sans-serif;
+  margin: 0;
+}
+
+/* hover on nav elements */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  text-decoration: underline;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #CF8E77;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px CF8E77;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* hover dropdown */
+.dropdown-content a:hover {
+  background-color: #C3846D;
+  text-decoration: none;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* END OF NAVBAR CODE */
+
+/*rant chat background color*/
+.rantChatBkgrd{
+  background-color: #F4ECE2;
+}
+
+/*fix for the wonky thing*/
+h1 {
+  margin-top: 50px;
+}
+
+.rantInput{
+  background-color: #CF8E77;
+  padding-bottom: 360px;
+  border-radius: 15px;
+  width: 80%;
+  margin: 0 auto;
+/*max-width:800px; need rant chat to wrap around w textarea */
+  font-family: 'Roboto', sans-serif;
+}
+
+.rantInput:focus {
+  outline: none;
+}
+
+.rantChatSubmit{
+  background-color: #CF8E77;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  margin: 5px;
+  padding: 14px;
+  cursor: pointer;
+}
+
+.rantChatSubmit:hover{
+  background-color: #C3846D;
+}
+
+input[type='text'] {
+  font-size: 19px;
+  padding-left: 20px;
+  color: #F4ECE2;
+}
+
+::placeholder {
+  color: #F4ECE2;
+  font-size: 19px; 
+}
+
+img{
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.policy{
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+}
+
+.head{
+  font-family: 'Barlow', sans-serif;
+  margin-top: 200px;
+  font-size: 20px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.resourcesheader{
+  font-family: roboto;
+  margin-left: 10px;
+  padding-top: 15px; 
+}
+
+
+.rantChat{
+  margin-left: 10px;
+  font-family: roboto;
+}
+
+/*footer css*/
+h2 {
+  font-family: 'Barlow', sans-serif;
+}
+
+.footerLink {
+  font-family: 'Poppins', sans-serif;
+  color: #F4ECE2;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.footerLink:hover {
+  font: bold;
+  text-decoration: underline;
+  color: #F4ECE2;
+}
+
+input[type="email"] {
+  background-color: #F4ECE2;
+  width: 450px;
+  margin: 40px;
+  padding: 20px;
+  font-size: 15px;
+  border-radius: 20px;
+  border-color: #F4ECE2;
+  height: 70px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+input[type="email"]::placeholder {
+  color: black;
+}
+
+input[type="email"]:focus {
+  outline: none;
+}
+
+.signUp {
+  background: #F4ECE2;
+  color: black;
+  height: 70px;
+  width: 140px;
+  font: bold 15px 'Barlow', sans-serif;
+  text-shadow:none;
+  margin: 40px;
+  border-radius: 20px;
+  border-color: #F4ECE2;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: start;
+  background-color: #C89D7C;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.about {
+  margin: 20px;
+  text-align: left;
+}
+
+.resources {
+  margin: 20px;
+  text-align: left;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+}
